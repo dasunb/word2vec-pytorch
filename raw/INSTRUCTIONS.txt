@@ -1,0 +1,1 @@
+Download and place the tagged version of the English portion of the Wikicorpus here. More information will be available in the README.
