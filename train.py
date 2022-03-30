@@ -142,7 +142,7 @@ if __name__ == '__main__':
         shared_array_y = pickle.load(filehandle_3)
 
     print("Loading Unigram table...")
-    with (open(path+"unigram_table_3", 'rb')) as filehandle_4:
+    with (open(path+"unigram_table", 'rb')) as filehandle_4:
         unigram_table = pickle.load(filehandle_4)
 
     unigram_table = unigram_table.astype(np.int32)
